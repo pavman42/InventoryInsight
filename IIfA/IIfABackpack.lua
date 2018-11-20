@@ -120,6 +120,10 @@ local function DoesInventoryMatchList(locationName, location)
 		return IIfA:IsOneOf(bagId, BAG_BACKPACK, BAG_WORN, BAG_BANK, BAG_SUBSCRIBER_BANK, BAG_VIRTUAL) or
 			GetCollectibleForHouseBankBag(bagId) > 0
 
+	elseif (filter == "Storage Only") then
+                return IIfA:IsOneOf(bagId, BAG_BANK, BAG_SUBSCRIBER_BANK) or
+                        GetCollectibleForHouseBankBag(bagId) > 0
+
 	elseif (filter == "Everything I own") then
 		return IIfA:IsOneOf(bagId, BAG_BACKPACK, BAG_WORN, BAG_BANK, BAG_SUBSCRIBER_BANK, BAG_VIRTUAL) or
 			GetCollectibleForHouseBankBag(bagId) > 0 or
