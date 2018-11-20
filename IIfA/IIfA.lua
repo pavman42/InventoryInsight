@@ -7,7 +7,7 @@
 	Collects inventory data for all characters on a single account including the shared bank and makes this information available
 	on tooltips across the entire account providing the playerwith useful insight into their account wide inventory.
 DISCLAIMER
-	This Add-on is not created by, affiliated with or sponsored by ZeniMax Media Inc. or its affiliates. The Elder Scrolls® and related
+	This Add-on is not created by, affiliated with or sponsored by ZeniMax Media Inc. or its affiliates. The Elder ScrollsÂ® and related
 	logos are registered trademarks or trademarks of ZeniMax Media Inc. in the United States and/or other countries. All rights reserved."
 ]]
 ------------------------------------------------------------------
@@ -70,6 +70,7 @@ IIfA.dropdownLocNames = {
 	"All Guild Banks",
 	"All Characters",
 	"All Storage",
+	"Storage Only",
 	"Everything I own",
 	"Bank Only",
 	"Bank and Characters",
@@ -82,6 +83,7 @@ IIfA.dropdownLocNames = {
 
 IIfA.dropdownLocNamesTT = {
 	["All Storage"] = "Bank, Characters, CraftBag, and Storage Chests/Coffers",
+	["Storage Only"] = "Bank and Storage Chests/Coffers Only",
 	["Everything I own"] = "Bank, Characters, CraftBag, Storage Chests/Coffers, and Houses",
 	["Housing Storage"] = "Storage Chests/Coffers",
 	}
